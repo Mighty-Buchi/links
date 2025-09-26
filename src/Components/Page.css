@@ -6,6 +6,7 @@
     flex-direction: column;
     height: 100vh;
     background-color: hsl(0, 0%, 8%);
+    font-family: inter, sans-serif;
 }
 .pagecon{
     background-color: hsl(0, 0%, 12%);
@@ -58,4 +59,26 @@ a{
 a:hover{
     background-color: hsl(75, 94%, 57%);
     color: black;
+}
+
+
+
+@media (max-width : 440px){
+    a{
+        font-size: 13px;
+        padding: 0.7em 5em;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .p1{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .con2{
+        margin: 0 1em;
+        margin-bottom: 2em;
+    }
 }
